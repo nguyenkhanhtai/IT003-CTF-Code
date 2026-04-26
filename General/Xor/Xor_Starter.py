@@ -1,0 +1,1 @@
+print(f"crypto{{{''.join(chr(ord(c) ^ 13) for c in 'label')}}}")
